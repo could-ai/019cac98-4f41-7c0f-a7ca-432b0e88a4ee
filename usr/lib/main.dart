@@ -53,16 +53,17 @@ class AboutPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      'Our Mission',
+                      'Why Shariatpur?',
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      "Shariatpur is changing fast, but many students in remote river areas still don't have good schools. Even though the Padma Bridge connects us to the capital, these students often lack money and guidance for exams. We chose Shariatpur to help these hardworking students get the education they deserve and turn their dreams into reality.",
+                      "Shariatpur is growing fast, but students living near the river still face big challenges. Even with the new Padma Bridge, many lack the money and guidance needed for good schools. We are here to support these hardworking students and help make their dreams of higher education come true.",
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             height: 1.5,
+                            fontSize: 18,
                           ),
                       textAlign: TextAlign.center,
                     ),
